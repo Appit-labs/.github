@@ -19,7 +19,7 @@ Then:
 The `profile/` folder in this directory is a complete GitHub profile repository:
 
 ```bash
-cd /home/ibadr/work/appit-labs-org
+cd ~/work/appit-labs-org
 gh repo create appit-labs/.github --public --source=. --remote=origin --push \
   --description "Appit Labs — AI and apps projects, and the agent skills we ship with"
 ```
@@ -30,9 +30,9 @@ avatar live beside it in `profile/assets/`, so every page keeps working if the r
 ## 3. Move the code in
 
 ```bash
-cd /home/ibadr/work/appit-skills
+cd ~/work/appit-skills
 scripts/migrate-to-org.sh --yes          # transfers the 9 skill repos, rewrites every reference
-cd /home/ibadr/work/appit-labs-org
+cd ~/work/appit-labs-org
 ```
 
 The migration script repoints READMEs, `plugin.json`, `package.json` and the marketplace sources
