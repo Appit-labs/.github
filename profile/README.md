@@ -1,5 +1,9 @@
 <p align="center">
-  <img alt="Appit" src="profile/assets/appit-logo.png" width="420">
+  <a href="https://www.npmjs.com/package/@appitlabs/skills"><img alt="npm" src="https://img.shields.io/npm/v/@appitlabs/skills?style=flat-square&color=CB3837"></a>
+  <a href="https://www.npmjs.com/package/@appitlabs/skills"><img alt="downloads" src="https://img.shields.io/npm/dm/@appitlabs/skills?style=flat-square"></a>
+  <a href="https://github.com/Appit-labs/appit-skills"><img alt="skills" src="https://img.shields.io/badge/skills-12-2EA043?style=flat-square"></a>
+  <img alt="agents" src="https://img.shields.io/badge/works%20in-pi%20%7C%20Claude%20Code%20%7C%20Codex%20%7C%20Cursor-4B5563?style=flat-square">
+  <a href="https://github.com/Appit-labs/appit-skills/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-3DA639?style=flat-square"></a>
 </p>
 
 <h3 align="center">We build AI products, and the tools that keep them shipping.</h3>
@@ -22,10 +26,13 @@
 
 ## The skills collection
 
-Nine skills, one install, any agent. Each one is plain `SKILL.md` plus, where it helps, a single
+Twelve skills, one install, any agent. Each one is plain `SKILL.md` plus, where it helps, a single
 stdlib script — no runtime, no framework, nothing tied to one vendor.
 
 ```bash
+# npm — all twelve in one package
+npm i -g @appitlabs/skills        # or: pi install npm:@appitlabs/skills
+
 # Claude Code
 claude plugin marketplace add Appit-labs/appit-skills
 claude plugin install live-qa@appit-skills
