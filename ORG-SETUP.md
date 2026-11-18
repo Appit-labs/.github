@@ -12,7 +12,7 @@ Then:
 1. **Avatar** — upload `profile/assets/appit-avatar.png` (512×512, generated from the logo).
 2. **Display name**: `Appit Labs`.
 3. **Bio**: `AI and apps projects — plus the agent skills we use to ship them.`
-4. **Website**: `https://github.com/ibrahimbdr/appit-skills` (until there is a real site).
+4. **Website**: `https://github.com/Appit-labs/appit-skills` (until there is a real site).
 
 ## 2. Publish the profile README
 
@@ -36,7 +36,7 @@ cd ~/work/appit-labs-org
 ```
 
 The migration script repoints READMEs, `plugin.json`, `package.json` and the marketplace sources
-from `ibrahimbdr/…` to `appit-labs/…`, sets topics, and pushes. GitHub leaves redirects behind, so
+from `Appit-labs/…` to `appit-labs/…`, sets topics, and pushes. GitHub leaves redirects behind, so
 existing links keep working.
 
 ## 4. Keep the org tidy

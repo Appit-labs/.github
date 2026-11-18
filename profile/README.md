@@ -5,9 +5,9 @@
 <h3 align="center">We build AI products, and the tools that keep them shipping.</h3>
 
 <p align="center">
-  <a href="https://github.com/ibrahimbdr/appit-skills"><img alt="skills" src="https://img.shields.io/badge/agent%20skills-9%20of%20them-2EA043?style=flat-square"></a>
+  <a href="https://github.com/Appit-labs/appit-skills"><img alt="skills" src="https://img.shields.io/badge/agent%20skills-9%20of%20them-2EA043?style=flat-square"></a>
   <img alt="agents" src="https://img.shields.io/badge/works%20in-pi%20%7C%20Claude%20Code%20%7C%20Codex%20%7C%20Cursor-4B5563?style=flat-square">
-  <a href="https://github.com/ibrahimbdr/appit-skills/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-3DA639?style=flat-square"></a>
+  <a href="https://github.com/Appit-labs/appit-skills/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-3DA639?style=flat-square"></a>
 </p>
 
 ## What lives here
@@ -16,7 +16,7 @@
 
 | Group | What it is |
 | --- | --- |
-| **Agent skills** | Practical, MIT-licensed skills that make coding agents better at real work — browser QA, CI triage, databases, remote servers, Blender. Start at [appit-skills](https://github.com/ibrahimbdr/appit-skills). |
+| **Agent skills** | Practical, MIT-licensed skills that make coding agents better at real work — browser QA, CI triage, databases, remote servers, Blender. Start at [appit-skills](https://github.com/Appit-labs/appit-skills). |
 | **Apps** | The product code itself: services, daemons, UIs. |
 | **Tooling** | The small utilities that keep the two above honest — probes, harnesses, demos. |
 
@@ -27,27 +27,27 @@ stdlib script — no runtime, no framework, nothing tied to one vendor.
 
 ```bash
 # Claude Code
-claude plugin marketplace add ibrahimbdr/appit-skills
+claude plugin marketplace add Appit-labs/appit-skills
 claude plugin install live-qa@appit-skills
 
 # pi
-pi install git:github.com/ibrahimbdr/appit-skills
+pi install git:github.com/Appit-labs/appit-skills
 
 # anything else that reads a skills directory
-git clone git@github.com:ibrahimbdr/live-qa.git && cp -r live-qa/skills/live-qa ~/.codex/skills/
+git clone git@github.com:Appit-labs/live-qa.git && cp -r live-qa/skills/live-qa ~/.codex/skills/
 ```
 
 | Skill | What it does |
 | --- | --- |
-| [live-qa](https://github.com/ibrahimbdr/live-qa) | Live QA in a real browser: a verified screenshot per step, a pass/fail table, console/network facts |
-| [ci-triage](https://github.com/ibrahimbdr/ci-triage) | CI is red → the failing step and the four lines that matter (GitHub Actions + GitLab) |
-| [pg-inspect](https://github.com/ibrahimbdr/pg-inspect) | Read-only Postgres inspection that cannot write |
-| [repo-runbook](https://github.com/ibrahimbdr/repo-runbook) | Writes the install/test/migrate runbook into `AGENTS.md` |
-| [remote-exec](https://github.com/ibrahimbdr/remote-exec) | SSH that cannot hang; one-call host health probe |
-| [trello-tickets](https://github.com/ibrahimbdr/trello-tickets) | Seven ticket types baked in; well-formed cards in one command |
-| [cloud-browser](https://github.com/ibrahimbdr/cloud-browser) | Hosted browser sessions, and the sweep that stops orphaned ones |
-| [open-design](https://github.com/ibrahimbdr/open-design) | The OpenDesign monorepo, minus the pnpm trap |
-| [blender-pipeline](https://github.com/ibrahimbdr/blender-pipeline) | Blender via MCP: eight playbooks behind one router |
+| [live-qa](https://github.com/Appit-labs/live-qa) | Live QA in a real browser: a verified screenshot per step, a pass/fail table, console/network facts |
+| [ci-triage](https://github.com/Appit-labs/ci-triage) | CI is red → the failing step and the four lines that matter (GitHub Actions + GitLab) |
+| [pg-inspect](https://github.com/Appit-labs/pg-inspect) | Read-only Postgres inspection that cannot write |
+| [repo-runbook](https://github.com/Appit-labs/repo-runbook) | Writes the install/test/migrate runbook into `AGENTS.md` |
+| [remote-exec](https://github.com/Appit-labs/remote-exec) | SSH that cannot hang; one-call host health probe |
+| [trello-tickets](https://github.com/Appit-labs/trello-tickets) | Seven ticket types baked in; well-formed cards in one command |
+| [cloud-browser](https://github.com/Appit-labs/cloud-browser) | Hosted browser sessions, and the sweep that stops orphaned ones |
+| [open-design](https://github.com/Appit-labs/open-design) | The OpenDesign monorepo, minus the pnpm trap |
+| [blender-pipeline](https://github.com/Appit-labs/blender-pipeline) | Blender via MCP: eight playbooks behind one router |
 
 ## How we build them
 
